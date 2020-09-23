@@ -26,15 +26,15 @@ public class Suma {
         //Tipo de dato por referencia
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Ingresa el primer valor");
+        System.out.println("Ingresa el primer valor entero");
         num1 = sc.nextInt();
         
-        System.out.println("Ingresa el segundo valor");
+        System.out.println("Ingresa el segundo valor entero");
         num2 = sc.nextInt();
         
         suma = num1 + num2;
         
-        System.out.println("La suma de " + num1 + " + "+ num2 + " = " + suma);
+        System.out.println("La suma de los enteros " + num1 + " + "+ num2 + " = " + suma);
     }
     
 }
